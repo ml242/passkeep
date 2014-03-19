@@ -6,6 +6,8 @@ Devise.setup do |config|
   # note that it will be overwritten if you use your own mailer class with default "from" parameter.
   config.mailer_sender = "no-reply@passkeep.com"
 
+  config.secret_key = '5f813209cab75dea7c4f2f9d414b98b8e903c6860984543a6eaeea121bb30a42e32328c95252b83c26cd2a3ac8e7b59e622515e2ad60e9ccb4487143f0b76d26'
+
   # Configure the class responsible to send e-mails.
   # config.mailer = "Devise::Mailer"
 

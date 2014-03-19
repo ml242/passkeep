@@ -2,7 +2,7 @@ source 'http://rubygems.org'
 
 gem 'rails', '3.2.14'
 
-gem 'acts-as-taggable-on', git: 'https://github.com/mbleigh/acts-as-taggable-on.git'
+gem 'acts-as-taggable-on'
 gem 'attr_encrypted'
 gem 'capistrano'
 gem 'cancan'
@@ -19,6 +19,7 @@ gem 'rack-cache', require: 'rack/cache'
 gem 'settingslogic'
 gem 'will_paginate'
 gem 'uuidtools'
+gem 'rake', '>= 10.1.1'
 
 group :assets do
   gem 'sass-rails',   '~> 3.2.3'
@@ -29,7 +30,6 @@ end
 group :development do
   gem 'annotate'
   gem 'bullet'
-  gem 'capistrano_colors'
   gem 'execjs'
   gem 'quiet_assets'
   gem 'rack-mini-profiler'
